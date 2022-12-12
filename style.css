@@ -1,0 +1,137 @@
+body {
+   margin: 0;
+}
+
+.container {
+   font-family: "roboto", sans-serif;
+}
+
+.header {
+   box-sizing: border-box;
+   display: flex;
+   padding: 16px 15%;
+   justify-content: space-between;
+   background-color: #1F2937;
+   align-items: center;
+   height: 52px;
+}
+
+.header-left {
+   font-size: 24px;
+   color: #F9FAF8;
+   font-weight: bold;
+}
+
+.header-right {
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+.header-right ul {
+   list-style: none;
+   gap: 16px;
+   display: flex;
+}
+
+.main {
+   display: flex;
+   height: calc(100vh - 52px);
+   background-color: #1F2937;
+   justify-content: center;
+   align-items: center;
+   padding: 0 15%;
+}
+
+.main-content {
+   display: flex;
+   align-items: flex-start;
+   gap: 8px;
+}
+
+.main-left-content {
+   flex: 1;
+}
+
+.main-left-content span {
+   font-size: 48px;
+   font-weight: 900;
+   color: #F9FAF8;
+}
+
+.main-left-content p {
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+.main-left-content button {
+   background-color: #3882f6;
+   padding: 8px 32px;
+   border-radius: 8px;
+   align-self: flex-start;
+   
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+
+.main-right-content {
+   flex: 1;
+}
+
+.main-right-content img {
+   width: 100%;
+   border-radius: 8px;
+}
+
+.informations {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 52px 15%;
+}
+
+.informations span {
+   font-size: 36px;
+   font-weight: 900;
+   color: #1F2937;
+   margin-bottom: 32px;
+}
+
+.formats {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 32px
+}
+
+.formats-card {
+   height: 300px;
+   width: 200px;
+   border-radius: 8px;
+   padding: 8px;
+
+   border-style: solid;
+   border-width: thin;
+   border-color: lightgray;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.formats-card img {
+   flex: 1;
+   height: 0px; /* ASK FOR EXPLANATION */
+   object-fit: cover;
+   border-radius: 8px;
+}
+
+.formats-card-desc {
+   padding: 8px;
+   height: 32px;
+   text-align: center;
+   font-weight: bold;
+}
